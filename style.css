@@ -37,6 +37,10 @@ Nicolas Gallagher and Jonathan Neal http://necolas.github.com/normalize.css/
 	## Asides
 	## Comments
 # Infinite scroll
+#Header
+#Content
+#Sidebar
+#Footer
 # Media
 	## Captions
 	## Galleries
@@ -48,22 +52,23 @@ Nicolas Gallagher and Jonathan Neal http://necolas.github.com/normalize.css/
 /*  second block */
 .main-page {
   max-width: 1040px;
-  margin: 0 auto; }
+  margin: 0 auto;
+  background: #FFF; }
 
 /*  third block*/
-.inner {
-  padding: 2em 0; }
-
 #primary {
   /*content*/
-  float: left;
+  float: right;
   width: 66.5%;
   padding-right: 50px; }
 
 #secondary {
   /*sidebar*/
-  float: right;
+  float: left;
   width: 33.5%; }
+
+#page {
+  padding-top: 50px; }
 
 /*--------------------------------------------------------------
 # Normalize
@@ -313,7 +318,7 @@ html {
   box-sizing: inherit; }
 
 body {
-  background: #fff;
+  background: url(images/bg.png);
   /* Fallback for when there is no custom background color defined. */ }
 
 blockquote, q {
@@ -659,7 +664,7 @@ a {
 embed,
 iframe,
 object {
-  max-width: 100%; }
+  max-width: 800px; }
 
 /*--------------------------------------------------------------
 ## Captions
