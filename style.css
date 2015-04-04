@@ -42,6 +42,30 @@ Nicolas Gallagher and Jonathan Neal http://necolas.github.com/normalize.css/
 	## Galleries
 --------------------------------------------------------------*/
 /*--------------------------------------------------------------
+# Structure
+--------------------------------------------------------------*/
+/*  first block empty */
+/*  second block */
+.main-page {
+  max-width: 1040px;
+  margin: 0 auto; }
+
+/*  third block*/
+.inner {
+  padding: 2em 0; }
+
+#primary {
+  /*content*/
+  float: left;
+  width: 66.5%;
+  padding-right: 50px; }
+
+#secondary {
+  /*sidebar*/
+  float: right;
+  width: 33.5%; }
+
+/*--------------------------------------------------------------
 # Normalize
 --------------------------------------------------------------*/
 html {
