@@ -9,11 +9,14 @@
 /*  third block*/
 .inner{
   padding: 2em 0;
+  border: 1px solid #fff; 
 }
 #primary{  /*content*/
   float: left;
   width: 66.5%;
   padding-right: 50px;
+  border: 1px solid #333; 
+
   }
   #secondary{   /*sidebar*/
   float: right;

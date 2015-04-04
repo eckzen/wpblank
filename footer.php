@@ -8,7 +8,9 @@
  */
 ?>
 
-	</div><!-- #content -->
+			</div><!-- #content -->
+		</div>	<!-- END of main-page -->
+	</div> <!-- END  of full -->
 
 	<footer id="colophon" class="site-footer" role="contentinfo">
 		<div class="site-info">

@@ -26,7 +26,7 @@
 					<div class="site-branding">
 						<h1 class="site-title"><a href="<?php echo esc_url( home_url( '/' ) ); ?>" rel="home"><?php bloginfo( 'name' ); ?></a></h1>
 						<h2 class="site-description"><?php bloginfo( 'description' ); ?></h2>
-					</div>.site-branding
+					</div> <!-- .site-branding -->
 				
 					<nav id="site-navigation" class="main-navigation" role="navigation">
 						<button class="menu-toggle" aria-controls="primary-menu" aria-expanded="false"><?php _e( 'Primary Menu', 'blank' ); ?></button>
@@ -35,4 +35,6 @@
 				</header><!-- #masthead -->
 			</div> <!-- END of main-page -->
 	</div> <!-- END of full -->
-	<div id="content" class="site-content">
+	<div class="full">
+		<div class="main-page">
+			<div id="content" class="site-content inner">
