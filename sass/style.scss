@@ -18,30 +18,30 @@ blank is based on Underscores http://underscores.me/, (C) 2012-2015 Automattic, 
 Normalizing styles have been helped along thanks to the fine work of
 Nicolas Gallagher and Jonathan Neal http://necolas.github.com/normalize.css/
 */
-
 /*--------------------------------------------------------------
 >>> TABLE OF CONTENTS:
 ----------------------------------------------------------------
-# Normalize
-# Typography
-# Elements
-# Forms
-# Navigation
-	## Links
-	## Menus
-# Accessibility
-# Alignments
-# Clearings
-# Widgets
+Table of Contents
+# Structure
+# Reset 
+# General Styles
+	## Typography
+	## Elements
+# Helper Styles
+	## Alignment
+	## Clearings
+	## Accesibility
+# Buttons / Inputs
+	## Forms
+# Header
+	Menus
 # Content
-    ## Posts and pages
-	## Asides
-	## Comments
-# Infinite scroll
-#Header
-#Content
-#Sidebar
-#Footer
+	## Post/pages
+	## Navigation
+	## Comment
+# Sidebar
+	## Widgets
+# Footer
 # Media
 	## Captions
 	## Galleries
@@ -53,60 +53,37 @@ Nicolas Gallagher and Jonathan Neal http://necolas.github.com/normalize.css/
 --------------------------------------------------------------*/
 @import "structure/structure";
 /*--------------------------------------------------------------
-# Normalize
+# Normalize / Reset
 --------------------------------------------------------------*/
-@import "normalize";
-
+@import "reset";
 /*--------------------------------------------------------------
-# Typography
+# General styles
 --------------------------------------------------------------*/
-@import "typography/typography";
-
+@import "general/general";
 /*--------------------------------------------------------------
-# Elements
+# Helper styles
 --------------------------------------------------------------*/
-@import "elements/elements";
-
+@import "helper/helper";
 /*--------------------------------------------------------------
-# Forms
+# Buttons / Inputs
 --------------------------------------------------------------*/
-@import "forms/forms";
-
+@import "buttons/inputs";
 /*--------------------------------------------------------------
-# Navigation
+# Header
 --------------------------------------------------------------*/
-@import "navigation/navigation";
-
-/*--------------------------------------------------------------
-# Accessibility
---------------------------------------------------------------*/
-@import "modules/accessibility";
-
-/*--------------------------------------------------------------
-# Alignments
---------------------------------------------------------------*/
-@import "modules/alignments";
-
-/*--------------------------------------------------------------
-# Clearings
---------------------------------------------------------------*/
-@import "modules/clearings";
-
-/*--------------------------------------------------------------
-# Widgets
---------------------------------------------------------------*/
-@import "site/secondary/widgets";
-
+@import "header/header";
 /*--------------------------------------------------------------
 # Content
 --------------------------------------------------------------*/
-@import "site/site";
-
+@import "content/content";
 /*--------------------------------------------------------------
-# Infinite scroll
+# Sidebar
 --------------------------------------------------------------*/
-@import "modules/infinite-scroll";
-
+@import "sidebar/widgets";
+/*--------------------------------------------------------------
+# Footer
+--------------------------------------------------------------*/
+@import "footer/footer";
 /*--------------------------------------------------------------
 # Media
 --------------------------------------------------------------*/
